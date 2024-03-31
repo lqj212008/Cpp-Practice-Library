@@ -1,0 +1,48 @@
+﻿  0.6指针和数组.cpp
+  1.内存四区.cpp
+  c++练习.cpp
+  初级实战—通讯录管理系统.cpp
+  指针冒泡排序.cpp
+  栈区.cpp
+  结构体中const使用场景.cpp
+  结构体嵌套结构体.cpp
+  结构体指针.cpp
+  结构体数组.cpp
+  结构体案例.cpp
+E:\cppCode\c++练习\结构体案例.cpp(5,6): error C2182: “addPerson”: “void” 这一使用无效
+E:\cppCode\c++练习\结构体案例.cpp(5,16): error C2065: “addresbooks”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(5,32): error C2563: 在形参表中不匹配
+E:\cppCode\c++练习\结构体案例.cpp(5,32): error C2568: “*”: 无法解析函数重载
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 可能是“long double abs(long double) noexcept”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “float abs(float) noexcept”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “double abs(double) noexcept”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “__int64 abs(const __int64) throw()”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “long abs(const long) throw()”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “int abs(int)”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “int abs(int)”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “long abs(const long) throw()”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “__int64 abs(const __int64) throw()”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “double abs(double) noexcept”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “float abs(float) noexcept”
+E:\cppCode\c++练习\结构体案例.cpp(5,32): message : 或    “long double abs(long double) noexcept”
+E:\cppCode\c++练习\结构体案例.cpp(5,34): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+E:\cppCode\c++练习\结构体案例.cpp(5,34): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+E:\cppCode\c++练习\结构体案例.cpp(48,6): error C2182: “bubbleSort”: “void” 这一使用无效
+E:\cppCode\c++练习\结构体案例.cpp(48,17): error C2065: “Hero”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(48,22): error C2146: 语法错误: 缺少“)”(在标识符“heroArray”的前面)
+E:\cppCode\c++练习\结构体案例.cpp(48,44): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+E:\cppCode\c++练习\结构体案例.cpp(48,44): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+E:\cppCode\c++练习\结构体案例.cpp(62,2): error C2065: “Hero”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(62,7): error C2146: 语法错误: 缺少“;”(在标识符“heroArray”的前面)
+E:\cppCode\c++练习\结构体案例.cpp(62,7): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(69,19): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(69,39): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(74,26): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(75,23): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(76,23): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(79,13): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(84,26): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(85,23): error C2065: “heroArray”: 未声明的标识符
+E:\cppCode\c++练习\结构体案例.cpp(86,23): error C2065: “heroArray”: 未声明的标识符
+  正在生成代码...
+E:\cppCode\c++练习\栈区.cpp(6): warning C4172: 返回局部变量或临时变量的地址: a
