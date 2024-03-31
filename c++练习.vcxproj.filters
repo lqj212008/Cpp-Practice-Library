@@ -144,5 +144,8 @@
     <ClCompile Include="赋值运算符重载.cpp">
       <Filter>中级教程</Filter>
     </ClCompile>
+    <ClCompile Include="关系运算符重载.cpp">
+      <Filter>中级教程</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
