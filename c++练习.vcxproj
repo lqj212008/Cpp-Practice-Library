@@ -127,136 +127,51 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0.6指针和数组.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="1.内存四区.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="c++练习.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="const修饰成员函数.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="new和delete.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="this指针.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="全局函数做友元.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="关系运算符重载.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="函数调用运算符重载.cpp" />
-    <ClCompile Include="初始化列表.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="加号运算符重载.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="左移运算符重载.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="成员函数做友元.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="成员变量和成员函数分开存储.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="成员属性设置为私有.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="函数重载.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="函数重载的注意事项.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="函数默认参数.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="初级实战—通讯录管理系统.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="封装.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="常量引用.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="引用作为函数返回值.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="引用基本语法.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="引用的本质.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="拷贝构造函数的调用时机.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="指针冒泡排序.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="堆区.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="构造函数和析构函数.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="构造函数的分类及调用.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="构造函数调用规则.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="深拷贝和浅拷贝.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="空指针访问成员函数.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="立方体类.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="类做友元.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="类对象作为类成员.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="结构体中const使用场景.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="结构体嵌套结构体.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="结构体指针.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="结构体数组.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="结构体案例.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="访问权限.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="赋值运算符重载.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="递增运算符重载.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="静态成员.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="中级课程\1.内存四区.cpp" />
+    <ClCompile Include="中级课程\const修饰成员函数.cpp" />
+    <ClCompile Include="中级课程\new和delete.cpp" />
+    <ClCompile Include="中级课程\this指针.cpp" />
+    <ClCompile Include="中级课程\全局函数做友元.cpp" />
+    <ClCompile Include="中级课程\关系运算符重载.cpp" />
+    <ClCompile Include="中级课程\函数调用运算符重载.cpp" />
+    <ClCompile Include="中级课程\函数重载.cpp" />
+    <ClCompile Include="中级课程\函数重载的注意事项.cpp" />
+    <ClCompile Include="中级课程\函数默认参数.cpp" />
+    <ClCompile Include="中级课程\初始化列表.cpp" />
+    <ClCompile Include="中级课程\加号运算符重载.cpp" />
+    <ClCompile Include="中级课程\堆区.cpp" />
+    <ClCompile Include="中级课程\封装.cpp" />
+    <ClCompile Include="中级课程\左移运算符重载.cpp" />
+    <ClCompile Include="中级课程\常量引用.cpp" />
+    <ClCompile Include="中级课程\引用作为函数返回值.cpp" />
+    <ClCompile Include="中级课程\引用基本语法.cpp" />
+    <ClCompile Include="中级课程\引用的本质.cpp" />
+    <ClCompile Include="中级课程\成员函数做友元.cpp" />
+    <ClCompile Include="中级课程\成员变量和成员函数分开存储.cpp" />
+    <ClCompile Include="中级课程\成员属性设置为私有.cpp" />
+    <ClCompile Include="中级课程\拷贝构造函数的调用时机.cpp" />
+    <ClCompile Include="中级课程\构造函数和析构函数.cpp" />
+    <ClCompile Include="中级课程\构造函数的分类及调用.cpp" />
+    <ClCompile Include="中级课程\构造函数调用规则.cpp" />
+    <ClCompile Include="中级课程\深拷贝和浅拷贝.cpp" />
+    <ClCompile Include="中级课程\空指针访问成员函数.cpp" />
+    <ClCompile Include="中级课程\立方体类.cpp" />
+    <ClCompile Include="中级课程\类做友元.cpp" />
+    <ClCompile Include="中级课程\类对象作为类成员.cpp" />
+    <ClCompile Include="中级课程\继承.cpp" />
+    <ClCompile Include="中级课程\访问权限.cpp" />
+    <ClCompile Include="中级课程\赋值运算符重载.cpp" />
+    <ClCompile Include="中级课程\递增运算符重载.cpp" />
+    <ClCompile Include="中级课程\静态成员.cpp" />
+    <ClCompile Include="初级教程\0.6指针和数组.cpp" />
+    <ClCompile Include="初级教程\c++练习.cpp" />
+    <ClCompile Include="初级教程\初级实战—通讯录管理系统.cpp" />
+    <ClCompile Include="初级教程\指针冒泡排序.cpp" />
+    <ClCompile Include="初级教程\结构体中const使用场景.cpp" />
+    <ClCompile Include="初级教程\结构体嵌套结构体.cpp" />
+    <ClCompile Include="初级教程\结构体指针.cpp" />
+    <ClCompile Include="初级教程\结构体数组.cpp" />
+    <ClCompile Include="初级教程\结构体案例.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
